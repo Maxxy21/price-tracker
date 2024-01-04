@@ -1,8 +1,7 @@
-import HeroCarousel from "@/components/HeroCarousel"
 import Searchbar from "@/components/Searchbar"
 import Image from "next/image"
+import HeroCarousel from "@/components/HeroCarousel";
 
-import ProductCard from "@/components/ProductCard"
 
 const Home = async () => {
     // const allProducts = await getAllProducts();
@@ -13,7 +12,7 @@ const Home = async () => {
                 <div className="flex max-xl:flex-col gap-16">
                     <div className="flex flex-col justify-center">
                         <p className="small-text">
-                            Smart Shopping Made Easy:
+                            Smart Shopping leicht gemacht:
                             <Image
                                 src="/assets/icons/arrow-right.svg"
                                 alt="arrow-right"
@@ -23,18 +22,20 @@ const Home = async () => {
                         </p>
 
                         <h1 className="head-text">
-                            Unleash the Power of
-                            <span className="text-primary"> PriceTracker</span>
+                            Entfesseln Sie die Kraft von
+                            <span className="text-primary"> RabattRadar</span>
                         </h1>
 
                         <p className="mt-6">
-                            Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.
+                            Leistungsstarke, eigenständige Produkt- und Wachstumsanalysen, die Ihnen helfen, mehr zu
+                            konvertieren, zu binden und zu halten.
                         </p>
 
-                        <Searchbar />
+                        <Searchbar/>
                     </div>
 
-                    <HeroCarousel />
+                    <HeroCarousel/>
+
                 </div>
             </section>
 
