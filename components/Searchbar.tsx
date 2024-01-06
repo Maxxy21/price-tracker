@@ -50,7 +50,7 @@ const Searchbar = () => {
                 type="text"
                 value={searchPrompt}
                 onChange={(e) => setSearchPrompt(e.target.value)}
-                placeholder="Ich suche nach..."
+                placeholder="I´m looking for..."
                 className="searchbar-input"
             />
 
@@ -59,7 +59,7 @@ const Searchbar = () => {
                 className="searchbar-btn"
                 disabled={searchPrompt === ''}
             >
-                {isLoading ? 'Suchen...' : 'Suchen'}
+                {isLoading ? 'Searching' : 'Search'}
             </button>
 
         </form>

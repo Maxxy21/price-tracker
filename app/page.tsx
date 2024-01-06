@@ -12,7 +12,7 @@ const Home = async () => {
                 <div className="flex max-xl:flex-col gap-16">
                     <div className="flex flex-col justify-center">
                         <p className="small-text">
-                            Smart Shopping leicht gemacht:
+                            Smart shopping made easy:
                             <Image
                                 src="/assets/icons/arrow-right.svg"
                                 alt="arrow-right"
@@ -22,13 +22,13 @@ const Home = async () => {
                         </p>
 
                         <h1 className="head-text">
-                            Entfesseln Sie die Kraft von
+                            Unleash the power of
                             <span className="text-primary"> RabattRadar</span>
                         </h1>
 
                         <p className="mt-6">
-                            Leistungsstarke, eigenständige Produkt- und Wachstumsanalysen, die Ihnen helfen, mehr zu
-                            konvertieren, zu binden und zu halten.
+                            Powerful, self-serve product and growth analytics to
+                            help you convert, engage, and retain more.
                         </p>
 
                         <Searchbar/>
